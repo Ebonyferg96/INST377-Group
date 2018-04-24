@@ -14,24 +14,10 @@ body, html {
 
 /* Style the hero section */
 .hero-section {
-  background: url("https://amuhamm1.github.io/WebPage/images/umd_library.jpg") 50% no-repeat;
-  background-size: cover;
-  height: 60vh;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.hero-section .hero-section-text {
-  color: #fefefe;
-  text-shadow: 1px 1px 2px #0a0a0a;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://amuhamm1.github.io/WebPage/images/umd_library.jpg");
+    min-height: 75%;
 }
 </style>
 
@@ -56,12 +42,14 @@ body, html {
 </div>
 
 <!-- HeroSpace Image -->
-<div class="hero-section">
-  <div class="hero-section-text">
-    <h1>UMD On-Campus Housing</h1>
-    <h5>Asia | Sami | Ebony | Jerri | Kaushal | Jose</h5>
+<header class="hero-section w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:100px">UMD<br>Housing</span>
   </div>
-</div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white" style="font-size:30px">Asia | Sami | Ebony | Jerri | Kaushal | Jose</span>
+  </div>
+</header>
 
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large">
